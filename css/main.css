@@ -1,0 +1,228 @@
+/* Reset and base styles  */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+:root {
+  --font-main: "Fira Code", monospace;
+  --nav-text: #607B96;
+  --bg-color: #011627;
+  --title-color: #E5E9F0;
+  --h2-color: #4D5BCE;
+  --text-muted: #607B96;
+}
+
+body {
+  background-color: var(--bg-color);
+  text-decoration: none;
+  font-family: var(--font-main);
+}
+body a {
+  color: var(--nav-text);
+}
+
+.container {
+  max-width: 1782px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 56px;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  gap: 20px;
+  color: var(--nav-text);
+}
+
+.logo {
+  align-self: center;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav__list {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.nav-list__item {
+  border-right: 1px solid rgb(30, 45, 61);
+  padding: 17px 23px;
+}
+
+.nav-list__item:first-child {
+  border-left: 1px solid rgb(30, 45, 61);
+}
+
+.nav-list__item:active {
+  border-bottom: 3px solid rgb(254, 165, 95);
+}
+
+.phone {
+  border-left: 1px solid rgb(30, 45, 61);
+  padding: 17px 23px;
+  justify-self: end;
+  align-self: center;
+}
+
+.main {
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__left {
+  margin-top: 130px;
+  margin-left: 100px;
+}
+
+.title {
+  font-size: 18px;
+  color: rgb(229, 233, 240);
+}
+
+.heading {
+  font-size: 42px;
+  color: rgb(229, 233, 240);
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 26px;
+  color: rgb(77, 91, 206);
+}
+
+.desc {
+  margin-top: 81px;
+}
+
+.text {
+  color: rgb(96, 123, 150);
+  font-size: 16px;
+  font-weight: 450;
+}
+
+.purple {
+  color: rgb(77, 91, 206);
+}
+
+.green {
+  color: rgb(67, 217, 173);
+}
+
+.equil {
+  color: rgb(229, 233, 240);
+}
+
+.link {
+  color: rgb(233, 146, 135);
+}
+
+.main__right {
+  position: relative;
+}
+
+.blur__green {
+  position: absolute;
+  filter: blur(174px);
+  background: rgb(67, 217, 173);
+  opacity: 0.4;
+}
+
+.blur__purple {
+  filter: blur(174px);
+  background: rgb(77, 91, 206);
+  opacity: 0.4;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,49 @@
+ .main {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__left {
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+ .title {
+    font-size: 18px;
+    color: rgb(229, 233, 240);
+}
+.heading {
+    font-size: 42px;
+    color: rgb(229, 233, 240);
+    font-weight: 300;
+}
+.subtitle {
+    font-size: 26px;
+    color: rgb(77, 91, 206);
+}
+.desc {
+    margin-top: 81px;
+}
+ 
+ .text {
+    color: rgb(96, 123, 150);
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.purple {
+    color: rgb(77, 91, 206);
+}
+
+.green {
+    color: rgb(67, 217, 173);
+}
+
+.equil {
+    color: rgb(229, 233, 240);
+}
+
+.link {
+    color: rgb(233, 146, 135);
+}

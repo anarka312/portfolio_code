@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+
+body {
+  background-color: var(--bg-color);
+  text-decoration: none;
+  font-family: var(--font-main);
+
+  a {
+    color: var(--nav-text);
+  }
+}
+.container {
+  max-width: 1782px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+.main__right {
+  position: relative;
+}
+.blur__green {
+  position: absolute;
+  filter: blur(174px);
+  background: rgb(67, 217, 173);
+  opacity: 0.4;
+}
+.blur__purple {
+  filter: blur(174px);
+  background: rgb(77, 91, 206);
+  opacity: 0.4;
+}
