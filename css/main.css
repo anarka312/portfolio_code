@@ -105,12 +105,13 @@ body a {
 }
 
 .container {
-  max-width: 1782px;
+  max-width: 1280px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .header {
+  border-bottom: 1px solid rgb(30, 45, 61);
   height: 56px;
 }
 
@@ -132,21 +133,20 @@ body a {
   align-self: center;
   display: flex;
   justify-content: center;
-  gap: 30px;
   font-weight: 450;
   font-size: 16px;
 }
 
-.nav-list__item {
-  border-right: 1px solid rgb(30, 45, 61);
+.nav-list__link {
+  border-left: 1px solid rgb(30, 45, 61);
   padding: 17px 23px;
 }
 
-.nav-list__item:first-child {
-  border-left: 1px solid rgb(30, 45, 61);
+.nav-list__item-border {
+  border-right: 1px solid rgb(30, 45, 61);
 }
 
-.nav-list__item:active {
+.nav-list__link:hover {
   border-bottom: 3px solid rgb(254, 165, 95);
 }
 
@@ -157,10 +157,11 @@ body a {
   align-self: center;
 }
 
-.main {
+.wrapper {
   background-color: var(--bg-color);
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .main__left {
@@ -212,17 +213,75 @@ body a {
 
 .main__right {
   position: relative;
+  width: 480px;
+  margin-top: 50px;
 }
 
-.blur__green {
+.green__gradient {
   position: absolute;
-  filter: blur(174px);
-  background: rgb(67, 217, 173);
-  opacity: 0.4;
+  width: 400px;
+  height: 400px;
+  border-radius: 100% 50% 100% 0;
+  top: 53px;
+  right: 79px;
+  opacity: 0.7;
+  filter: blur(70px);
+  background: radial-gradient(circle at 50% 50%, #43d9ad, rgba(76, 0, 255, 0));
+  transform: rotate(-94.3deg);
 }
 
-.blur__purple {
-  filter: blur(174px);
-  background: rgb(77, 91, 206);
-  opacity: 0.4;
+.blue_gradient {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 100% 0 0;
+  left: 50px;
+  top: 100px;
+  opacity: 0.5;
+  filter: blur(70px);
+  background: radial-gradient(circle at 50% 50%, #4d5bce, rgba(76, 0, 255, 0));
+  transform: rotate(20deg);
+}
+
+.img__slider {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.footer {
+  border-top: 1px solid rgb(30, 45, 61);
+  margin-top: 38px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__text {
+  font-size: 16px;
+  color: #607b96;
+}
+
+.footer__icon {
+  border-right: 1px solid rgb(30, 45, 61);
+}
+
+.footer__line {
+  margin-left: 10px;
+  border-left: 1px solid rgb(30, 45, 61);
+}
+
+.footer__end {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #607b96;
+  margin-left: auto;
+}
+
+.footer__user {
+  border-left: 1px solid rgb(30, 45, 61);
+  padding: 13px 13px;
 }/*# sourceMappingURL=main.css.map */

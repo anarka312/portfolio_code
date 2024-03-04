@@ -1,0 +1,36 @@
+.footer {
+  border-top: 1px solid rgb(30, 45, 61);
+  margin-top: 38px;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__text {
+  font-size: 16px;
+  color: #607b96;
+}
+
+.footer__icon {
+  
+  border-right: 1px solid rgb(30, 45, 61);
+}
+
+.footer__line {
+  margin-left: 10px;
+  border-left: 1px solid rgb(30, 45, 61);
+}
+
+.footer__end {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #607b96;
+  margin-left: auto;
+}
+.footer__user {
+  border-left: 1px solid rgb(30, 45, 61);
+  padding: 13px 13px;
+}

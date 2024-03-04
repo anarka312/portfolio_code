@@ -1,7 +1,8 @@
- .main {
+ .wrapper {
     background-color: var(--bg-color);
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .main__left {

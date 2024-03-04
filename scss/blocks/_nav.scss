@@ -17,27 +17,22 @@
 
   display: flex;
   justify-content: center;
-  gap: 30px;
 
   font-weight: 450;
   font-size: 16px;
 }
 
-.nav-list__item {
-  border-right: 1px solid rgb(30, 45, 61);
-  
 
+.nav-list__link {
+  border-left: 1px solid rgb(30, 45, 61);
   padding: 17px 23px;
 }
 
-.nav-list__item:first-child {
-  border-left: 1px solid rgb(30, 45, 61);
+.nav-list__item-border {
+  border-right: 1px solid rgb(30, 45, 61);
 }
 
-.nav-list__link {
-}
-
-.nav-list__item:active {
+.nav-list__link:hover {
   border-bottom: 3px solid rgb(254, 165, 95);
 }
 .phone {
@@ -45,4 +40,7 @@
   padding: 17px 23px;
   justify-self: end;
   align-self: center;
+
+
 }
+
